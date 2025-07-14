@@ -1,0 +1,24 @@
+name: amadeus_gpt_testing
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10        # lock major/minor version for reproducibility
+  - numpy
+  - filterpy       # conda install filterpy so pip won’t rebuild it and cause "OSError: Permission denied" error.
+  - pandas
+  - hdf5
+  - pytables==3.8
+  - pip
+  - pip:
+    - deeplabcut
+    - amadeusgpt
+    - notebook
+
+# To create this environment for the first time on your computer, run: conda env create -f environment.yml
+# Each time you tweak this environment file, run: conda env update -f environment.yml
+# If you need to remove the environment (to recreate it), run: conda env remove -n amadeus_gpt_testing
+# To install all libraries, run: conda activate amadeus_gpt_testing
+    # Note that you have to re-create the environment, and change the name of the activate command if you change the "name": ... of the environment.yml file at the top.
+
+ 
