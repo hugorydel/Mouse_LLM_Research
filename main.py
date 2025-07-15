@@ -1,25 +1,59 @@
-import os
 from pathlib import Path
-from amadeusgpt import create_project
-from amadeusgpt import AMADEUS
-from amadeusgpt.utils import parse_result
 
-# NOTE: must add your API key to the .environment file (example.env file provided to show structure of code; create a .env file and reproduce the structure with the real API key)
-if 'OPENAI_API_KEY' not in os.environ:  
-     os.environ['OPENAI_API_KEY'] = '[[your key]]'
+import deeplabcut as dlc
+from amadeusgpt import AMADEUS, create_project
+from amadeusgpt.utils import parse_result
+from dotenv import find_dotenv, load_dotenv
+
+load_dotenv(find_dotenv(), True)
 
 BASE = Path(__file__).parent
 
-# data folder contains video files and optionally keypoint files
-# please pay attention to the naming convention as described above
+# data folder contains video files and keypoint files
 data_folder = BASE.parent / "videos_and_segments"
-# where the results are saved 
+
+# where the results are saved
 result_folder = BASE / "video_results"
+
+CONFIG_PATH = BASE / "video_results" / "config.yaml"
+DEFAULT_SCORER = "DLC_resnet50"
+
+# NOTE: must add your API key to the .env file (example.env file provided to show structure of code; create a .env file and reproduce the structure with the real API key)
+
+
+input_arguments = {
+    "animal_info": {"individuals": 1, "species": "topview_mouse"},
+    "data_info.video_suffix": ".avi",
+    "llm_info": {
+        "max_tokens": 4096,
+        "temperature": 0.0,
+        # you can switch this to gpt-4o-mini for cheaper inference at the cost of worse performance.
+        "gpt_model": "gpt-4o",
+        "keep_last_n_messages": 2,
+    },
+    # "keypoint_info": {
+    #     "use_3d": False,  # use 3D keypoints
+    #     "include_confidence": True,  # include confidence scores in the keypoints
+    # },
+    "animal_info": {"species": "topview_mouse", "individuals": 1},
+    "video_info": {"scene_frame_number": 300},
+    "scorer": DEFAULT_SCORER,  # the scorer to use for the analysis
+}
+
+# "animal_info.species": "topview_mouse",
+# "animal_info.individuals": 1,
+
 # Create a project
-config = create_project(data_folder, result_folder, video_suffix = ".mp4")
+project_config = create_project(data_folder, result_folder, **input_arguments)
+
+# # strip off the DLC_resnet50… suffix, keep everything up to the first ".csv"
+# for csv_path in data_folder.glob("*DLC_resnet50*.csv"):
+#     new_name = csv_path.with_name(csv_path.name.split("DLC_resnet50")[0] + ".csv")
+#     csv_path.rename(new_name)
+
 
 # Create an AMADEUS instance
-amadeus = AMADEUS(config)
+amadeus = AMADEUS(project_config)
 
 query = "Plot the trajectory of the animal using the animal center and color it by time"
 qa_message = amadeus.step(query)

@@ -1,0 +1,27 @@
+[build-system]
+requires      = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name            = "amadeus-gpt-testing"
+version         = "0.2.0"
+description     = "Animal-pose GPT helper"
+authors         = [{name = "Hugo Rydel", email = "hugo.rydel-johnston@student.manchester.ac.uk"}]
+readme          = "README.md"
+license         = {text = "MIT"}
+# Python versions supported
+requires-python = ">=3.9"
+
+dependencies = [
+  "notebook==7.2.0",
+  "tables==3.8.0",
+  "deeplabcut==3.0.0rc4",
+  "amadeusgpt==0.1.3",
+  "python-dotenv==1.1.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==7.4.4",
+  "pip-tools==7.4.1"      # so you can 'pip-compile' a lock once
+]

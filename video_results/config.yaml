@@ -1,0 +1,28 @@
+animal_info:
+  individuals: 1
+  species: topview_mouse
+data_info:
+  data_folder: !!python/object/apply:pathlib.WindowsPath
+  - f:\
+  - Hugo
+  - videos_and_segments
+  result_folder: !!python/object/apply:pathlib.WindowsPath
+  - f:\
+  - Hugo
+  - AmadeusGPT
+  - video_results
+  video_suffix: .avi
+keypoint_info:
+  include_confidence: false
+  use_3d: false
+llm_info:
+  gpt_model: gpt-4o
+  keep_last_n_messages: 2
+  max_tokens: 4096
+  temperature: 0.0
+object_info:
+  load_objects_from_disk: false
+  use_grid_objects: false
+scorer: DLC_resnet50
+video_info:
+  scene_frame_number: 300

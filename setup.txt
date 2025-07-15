@@ -1,0 +1,77 @@
+# 0. Install Python
+
+# 1. Upgrade pip (outside any .venv)
+python -m ensurepip --upgrade
+python -m pip install --upgrade pip
+
+# 2. Create a fresh virtual environment
+python -m venv .venv
+
+# 3. Activate it:
+# ──────────────
+# Linux/macOS:
+source .venv/bin/activate
+
+# Windows PowerShell:
+.venv\Scripts\Activate.ps1
+
+# Windows cmd.exe:
+.venv\Scripts\activate.bat
+
+# 4. Install development tools inside the venv
+pip install pip-tools setuptools wheel
+
+# 5. Define project metadata & build system in pyproject.toml
+# ──────────────────────────────────────────────────────────────
+cat > pyproject.toml <<'EOF'
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "your-package-name"
+version = "0.1.0"
+authors = [{name = "Your Name", email = "you@example.com"}]
+dependencies = [
+  # your runtime deps here, e.g. "requests>=2.28"
+]
+EOF
+
+# 6. Create a human-editable list of direct deps
+# ──────────────────────────────────────────────
+# List only the packages you explicitly depend on:
+cat > requirements.in <<'EOF'
+requests>=2.28
+flask
+# etc.
+EOF
+
+# 7. Compile a fully-pinned requirements.txt
+pip-compile requirements.in
+
+# 8. Install exactly those pinned versions
+pip-sync requirements.txt
+
+# —––––––––––––––––––––––––––––––––––––––––––––––––––—
+# Short explanations:
+
+# • pip-compile takes requirements.in → requirements.txt,
+#   pinning ALL transitive dependencies. This guarantees
+#   that everyone (CI, prod, teammates) gets the same versions.
+
+# • pip-sync un-installs anything not in requirements.txt,
+#   keeping your venv clean.
+
+# • You don’t need to “pip freeze > requirements.txt”;
+#   pip-compile is safer and explicit.
+
+# • Your pyproject.toml holds your project metadata
+#   and build-system config for modern packaging.
+
+# 9. When you add/remove a top-level dependency:
+#    – edit requirements.in
+#    – re-run: pip-compile && pip-sync
+
+# 10. (Optional) To publish:
+#    python -m build
+#    twine upload dist/*
