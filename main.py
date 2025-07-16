@@ -9,17 +9,17 @@ load_dotenv(find_dotenv(), True)
 
 BASE = Path(__file__).parent
 
-# data folder contains video files and keypoint files
-data_folder = BASE.parent / "videos_and_segments"
+# data folder contains video files and keypoint files.
+# You can change this to your own data folder.
+
 
 # where the results are saved
 result_folder = BASE / "video_results"
+data_folder = BASE / "data"
 
 CONFIG_PATH = BASE / "video_results" / "config.yaml"
-DEFAULT_SCORER = "DLC_resnet50"
 
 # NOTE: must add your API key to the .env file (example.env file provided to show structure of code; create a .env file and reproduce the structure with the real API key)
-
 
 input_arguments = {
     "animal_info": {"individuals": 1, "species": "topview_mouse"},
@@ -31,25 +31,14 @@ input_arguments = {
         "gpt_model": "gpt-4o",
         "keep_last_n_messages": 2,
     },
-    # "keypoint_info": {
-    #     "use_3d": False,  # use 3D keypoints
-    #     "include_confidence": True,  # include confidence scores in the keypoints
-    # },
-    "animal_info": {"species": "topview_mouse", "individuals": 1},
+    "keypoint_info": {
+        "use_3d": True,  # use 3D keypoints
+    },
     "video_info": {"scene_frame_number": 300},
-    "scorer": DEFAULT_SCORER,  # the scorer to use for the analysis
 }
-
-# "animal_info.species": "topview_mouse",
-# "animal_info.individuals": 1,
 
 # Create a project
 project_config = create_project(data_folder, result_folder, **input_arguments)
-
-# # strip off the DLC_resnet50… suffix, keep everything up to the first ".csv"
-# for csv_path in data_folder.glob("*DLC_resnet50*.csv"):
-#     new_name = csv_path.with_name(csv_path.name.split("DLC_resnet50")[0] + ".csv")
-#     csv_path.rename(new_name)
 
 
 # Create an AMADEUS instance

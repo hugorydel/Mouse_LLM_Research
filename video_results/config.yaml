@@ -3,14 +3,18 @@ animal_info:
   species: topview_mouse
 data_info:
   data_folder: !!python/object/apply:pathlib.WindowsPath
-  - f:\
-  - Hugo
-  - videos_and_segments
+    - c:\
+    - Users
+    - hugos
+    - Desktop
+    - videos_and_segments
   result_folder: !!python/object/apply:pathlib.WindowsPath
-  - f:\
-  - Hugo
-  - AmadeusGPT
-  - video_results
+    - c:\
+    - Users
+    - hugos
+    - Desktop
+    - AmadeusGPT
+    - video_results
   video_suffix: .avi
 keypoint_info:
   include_confidence: false
@@ -23,6 +27,5 @@ llm_info:
 object_info:
   load_objects_from_disk: false
   use_grid_objects: false
-scorer: DLC_resnet50
 video_info:
   scene_frame_number: 300
