@@ -1,18 +1,6 @@
 data_info:
-  data_folder: !!python/object/apply:pathlib.WindowsPath
-  - c:\
-  - Users
-  - hugos
-  - Desktop
-  - AmadeusGPT
-  - data
-  result_folder: !!python/object/apply:pathlib.WindowsPath
-  - c:\
-  - Users
-  - hugos
-  - Desktop
-  - AmadeusGPT
-  - video_results
+  data_folder: C:\Users\hugos\Desktop\AmadeusGPT\data
+  result_folder: C:\Users\hugos\Desktop\AmadeusGPT\video_results
   video_suffix: .avi
 keypoint_info:
   include_confidence: false
