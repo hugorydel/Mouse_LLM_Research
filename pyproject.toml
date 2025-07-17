@@ -8,9 +8,9 @@ version         = "0.2.0"
 description     = "Animal-pose GPT helper"
 authors         = [{name = "Hugo Rydel", email = "hugo.rydel-johnston@student.manchester.ac.uk"}]
 readme          = "README.md"
-license         = {text = "MIT"}
+license         = "MIT"
 # Python versions supported
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 
 dependencies = [
   "notebook==7.2.0",

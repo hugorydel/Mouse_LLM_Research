@@ -18,13 +18,13 @@ import yaml
 # ───────────────────────────────────────────────────────────────────────
 # USER‑EDITABLE CONSTANTS
 # ───────────────────────────────────────────────────────────────────────
-BASE = Path(__file__).parent
-MAT_FILE = BASE / "mouse3D.mat"  # your .mat
-OUT_DIR = BASE.parent / "data"  # where to write .h5
+BASE = Path(__file__).parent.parent.parent.parent
+MAT_FILE = BASE / "data_configs" / "mouse_3D_files" / "mouse3D.mat"  # your .mat
+OUT_DIR = BASE / "data"  # where to write .h5
 PREFIX = "camera_1_trial_"  # prefix before trial index
 CELL_NAME = "mouse3D"  # key in .mat
 SCORER_NAME = "DLC3D_fusedCam_2025"  # your chosen scorer label
-CONFIG_YML = BASE.parent / "data_configs" / "config.yaml"  # DLC config for bodyparts
+CONFIG_YML = BASE / "data_configs" / "config.yaml"  # DLC config for bodyparts
 # ───────────────────────────────────────────────────────────────────────
 
 # ──────────────────────────────────────────────────

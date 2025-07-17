@@ -4,7 +4,7 @@ from pathlib import Path
 
 # ─────── CONFIG ───────
 # Change this to wherever your .avi and .h5 files live:
-DATA_FOLDER = Path(__file__).parent.parent / "data"
+DATA_FOLDER = Path(__file__).parent.parent.parent.parent / "data"
 # ──────────────────────
 
 

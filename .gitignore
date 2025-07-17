@@ -2,6 +2,8 @@
 .venv
 build
 dist
-*.egg-info
 __pycache__
+# For the data inside the data directory (all files begin with camera...)
 camera*
+temp_answer.json
+*.egg-info/

@@ -1,5 +1,5 @@
 {
-    "chain_of_thought": "To plot the trajectory of the animal using the animal center and color it by time, we can use the keypoints data to determine the center of the animal. Since we have 3D keypoint data, we can calculate the center by averaging the x, y, and z coordinates of all keypoints for each frame. We will then plot this trajectory and color it by time.\n\nLet's proceed with the code implementation.",
+    "chain_of_thought": "To plot the trajectory of the animal using the animal center and color it by time, we will follow these steps:\n\n1. Retrieve the keypoints data for the animal.\n2. Calculate the center of the animal for each frame by averaging the x, y, and z coordinates of all keypoints.\n3. Plot the trajectory of the animal's center and color it by time.\n\nLet's implement this in the code.",
     "code": null,
     "video_file_paths": [
         "c:\\Users\\hugos\\Desktop\\AmadeusGPT\\data\\camera_1_trial_10_2023-08-30-112331-0000.avi",
@@ -31,4 +31,26 @@
     ],
     "config": {
         "data_info": {
-            "data_folder": 
+            "data_folder": "c:\\Users\\hugos\\Desktop\\AmadeusGPT\\data",
+            "result_folder": "c:\\Users\\hugos\\Desktop\\AmadeusGPT\\video_results",
+            "video_suffix": ".avi"
+        },
+        "llm_info": {
+            "max_tokens": 4096,
+            "temperature": 0.0,
+            "gpt_model": "gpt-4o",
+            "keep_last_n_messages": 2
+        },
+        "object_info": {
+            "load_objects_from_disk": false,
+            "use_grid_objects": false
+        },
+        "keypoint_info": {
+            "use_3d": true,
+            "include_confidence": false
+        },
+        "video_info": {
+            "scene_frame_number": 1
+        }
+    }
+}
