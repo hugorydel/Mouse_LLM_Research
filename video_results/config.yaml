@@ -1,24 +1,22 @@
-animal_info:
-  individuals: 1
-  species: topview_mouse
 data_info:
   data_folder: !!python/object/apply:pathlib.WindowsPath
-    - c:\
-    - Users
-    - hugos
-    - Desktop
-    - videos_and_segments
+  - c:\
+  - Users
+  - hugos
+  - Desktop
+  - AmadeusGPT
+  - data
   result_folder: !!python/object/apply:pathlib.WindowsPath
-    - c:\
-    - Users
-    - hugos
-    - Desktop
-    - AmadeusGPT
-    - video_results
+  - c:\
+  - Users
+  - hugos
+  - Desktop
+  - AmadeusGPT
+  - video_results
   video_suffix: .avi
 keypoint_info:
   include_confidence: false
-  use_3d: false
+  use_3d: true
 llm_info:
   gpt_model: gpt-4o
   keep_last_n_messages: 2
@@ -28,4 +26,4 @@ object_info:
   load_objects_from_disk: false
   use_grid_objects: false
 video_info:
-  scene_frame_number: 300
+  scene_frame_number: 1

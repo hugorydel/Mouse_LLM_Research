@@ -1,0 +1,741 @@
+    # Project definitions (do not edit)
+Task: Common_Network_cvBC
+scorer: 'David '
+date: Oct18
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: X:\project networks\Common_Network_cvBC-David -2023-10-18
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_1_2023-06-16-130957-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_2_2023-06-16-134437-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_3_2023-06-16-135222-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_4_2023-06-16-140024-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_5_2023-06-16-140908-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_1_2023-06-16-131143-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_2_2023-06-16-134443-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_3_2023-06-16-135229-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_4_2023-06-16-140030-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_5_2023-06-16-140914-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_1_2023-06-16-131212-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_2_2023-06-16-134440-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_3_2023-06-16-135226-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_4_2023-06-16-140027-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_5_2023-06-16-140912-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_1_2023-06-16-131257-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_2_2023-06-16-134446-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_3_2023-06-16-135234-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_4_2023-06-16-140032-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_5_2023-06-16-140918-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_1_2023-08-01-095440-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_2_2023-08-01-100428-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_3_2023-08-01-101235-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_4_2023-08-01-101958-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_5_2023-08-01-102748-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_1_2023-08-01-095502-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_2_2023-08-01-100436-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_3_2023-08-01-101242-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_4_2023-08-01-102004-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_5_2023-08-01-102757-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_1_2023-08-01-095534-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_2_2023-08-01-100432-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_3_2023-08-01-101238-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_4_2023-08-01-102001-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_5_2023-08-01-102752-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_1_2023-08-01-095607-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_2_2023-08-01-100439-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_3_2023-08-01-101245-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_4_2023-08-01-102008-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_5_2023-08-01-102801-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_2_2023-08-23-103011-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_3_2023-08-23-103741-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_4_2023-08-23-104428-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_5_2023-08-23-105202-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_6_2023-08-23-105852-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_2_2023-08-23-103015-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_3_2023-08-23-103745-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_4_2023-08-23-104432-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_5_2023-08-23-105205-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_6_2023-08-23-105856-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_2_2023-08-23-103022-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_3_2023-08-23-103753-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_4_2023-08-23-104441-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_5_2023-08-23-105213-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_6_2023-08-23-105903-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_2_2023-08-23-103018-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_3_2023-08-23-103749-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_4_2023-08-23-104436-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_5_2023-08-23-105208-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_6_2023-08-23-105859-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_1_2022-07-20-091245-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_2_2022-07-20-094239-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_3_2022-07-20-095025-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_4_2022-07-20-095834-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_5_2022-07-20-100904-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_1_2022-07-20-091246-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_2_2022-07-20-094243-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_3_2022-07-20-095029-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_4_2022-07-20-095839-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_5_2022-07-20-100908-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_1_2022-07-20-091247-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_2_2022-07-20-094250-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_3_2022-07-20-095039-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_4_2022-07-20-095844-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_5_2022-07-20-100915-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_1_2022-07-20-091248-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_2_2022-07-20-094255-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_3_2022-07-20-095034-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_4_2022-07-20-095848-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_5_2022-07-20-100911-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_1_2022-10-31-131235-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_2_2022-10-31-132732-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_3_2022-10-31-134035-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_4_2022-10-31-134812-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_5_2022-10-31-135849-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_1_2022-10-31-131248-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_2_2022-10-31-132739-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_3_2022-10-31-134041-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_4_2022-10-31-134817-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_5_2022-10-31-135854-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_1_2022-10-31-131311-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_2_2022-10-31-132746-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_3_2022-10-31-134045-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_4_2022-10-31-134821-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_5_2022-10-31-135859-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_1_2022-10-31-131320-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_2_2022-10-31-132753-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_3_2022-10-31-134050-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_4_2022-10-31-134827-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_5_2022-10-31-135903-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_1_2023-02-28-131030-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_2_2023-02-28-131842-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_3_2023-02-28-132907-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_4_2023-02-28-133735-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_5_2023-02-28-134552-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_1_2023-02-28-131122-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_2_2023-02-28-131846-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_3_2023-02-28-132914-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_4_2023-02-28-133742-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_5_2023-02-28-134559-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_1_2023-02-28-131120-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_2_2023-02-28-131844-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_3_2023-02-28-132911-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_4_2023-02-28-133738-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_5_2023-02-28-134555-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_1_2023-02-28-131124-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_2_2023-02-28-131848-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_3_2023-02-28-132918-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_4_2023-02-28-133745-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_5_2023-02-28-134603-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_2_2023-10-16-152123-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_3_2023-10-16-152918-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_4_2023-10-16-153716-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_5_2023-10-16-154421-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_1_trial_6_2023-10-16-155116-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_2_2023-10-16-152127-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_3_2023-10-16-152905-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_4_2023-10-16-153721-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_5_2023-10-16-154425-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_2_trial_6_2023-10-16-155120-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_2_2023-10-16-152135-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_3_2023-10-16-152913-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_4_2023-10-16-153728-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_5_2023-10-16-154433-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_3_trial_6_2023-10-16-155126-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_2_2023-10-16-152131-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_3_2023-10-16-152909-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_4_2023-10-16-153724-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_5_2023-10-16-154429-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos\camera_4_trial_6_2023-10-16-155130-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_1_trial_2_2022-10-31-132732-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_1_trial_2_2023-02-28-131842-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_1_trial_2_2023-06-16-134437-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_1_trial_2_2023-08-01-100428-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_1_trial_2_2023-08-23-103011-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_1_trial_2_2023-10-16-152123-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_2_trial_2_2022-10-31-132739-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_2_trial_2_2023-02-28-131846-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_2_trial_2_2023-06-16-134443-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_2_trial_2_2023-08-01-100436-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_2_trial_2_2023-08-23-103015-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_2_trial_2_2023-10-16-152127-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_3_trial_2_2022-10-31-132746-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_3_trial_2_2023-02-28-131844-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_3_trial_2_2023-06-16-134440-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_3_trial_2_2023-08-01-100432-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_3_trial_2_2023-08-23-103022-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_3_trial_2_2023-10-16-152135-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_4_trial_2_2022-10-31-132753-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_4_trial_2_2023-02-28-131848-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_4_trial_2_2023-06-16-134446-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_4_trial_2_2023-08-01-100439-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_4_trial_2_2023-08-23-103018-0000.avi
+  : crop: 0, 1280, 0, 1024
+  ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
+    -2023-10-18\videos for refinement\camera_4_trial_2_2023-10-16-152131-0000.avi
+  : crop: 0, 1280, 0, 1024
+bodyparts:
+- Snout
+- Left ear
+- Right ear
+- Left implant back
+- Right implant back
+- White cable part
+- Neck base
+- Body midpoint
+- Tail base
+- Neck-body midpoint
+- Body-tail midpoint
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 10
+
+    # Plotting configuration
+skeleton:
+- - Snout
+  - Left ear
+- - Snout
+  - Right ear
+- - Left ear
+  - Left implant back
+- - Right ear
+  - Right implant back
+- - Left implant back
+  - White cable part
+- - Right implant back
+  - White cable part
+- - Left ear
+  - Neck base
+- - Right ear
+  - Neck base
+- - Neck base
+  - Neck-body midpoint
+- - Neck-body midpoint
+  - Body midpoint
+- - Body midpoint
+  - Body-tail midpoint
+- - Body-tail midpoint
+  - Tail base
+
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 7
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 1
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

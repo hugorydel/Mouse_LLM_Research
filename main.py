@@ -1,6 +1,5 @@
 from pathlib import Path
 
-import deeplabcut as dlc
 from amadeusgpt import AMADEUS, create_project
 from amadeusgpt.utils import parse_result
 from dotenv import find_dotenv, load_dotenv
@@ -13,28 +12,26 @@ BASE = Path(__file__).parent
 # You can change this to your own data folder.
 
 
-# where the results are saved
+# The folder to which the results will be saved to
 result_folder = BASE / "video_results"
+
+# The folder where the data (including 2d .h5 files for each trial and camera and .avi videos for each camera and trial) is coming from
 data_folder = BASE / "data"
 
+# Folder to which the Amadeus config file is saved to.
 CONFIG_PATH = BASE / "video_results" / "config.yaml"
+
+# Folder to which the data config file is saved to.
+DATA_CONFIG_PATH = BASE / "data_configs" / "config.yaml"
+
+# Folder in which the pickle file folders are stored in.
+PICKLE_FILES_PATH = BASE / "data_configs" / "pickle_files"
 
 # NOTE: must add your API key to the .env file (example.env file provided to show structure of code; create a .env file and reproduce the structure with the real API key)
 
 input_arguments = {
-    "animal_info": {"individuals": 1, "species": "topview_mouse"},
     "data_info.video_suffix": ".avi",
-    "llm_info": {
-        "max_tokens": 4096,
-        "temperature": 0.0,
-        # you can switch this to gpt-4o-mini for cheaper inference at the cost of worse performance.
-        "gpt_model": "gpt-4o",
-        "keep_last_n_messages": 2,
-    },
-    "keypoint_info": {
-        "use_3d": True,  # use 3D keypoints
-    },
-    "video_info": {"scene_frame_number": 300},
+    "keypoint_info.use_3d": True,
 }
 
 # Create a project
