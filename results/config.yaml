@@ -1,6 +1,6 @@
 data_info:
   data_folder: c:\Users\hugos\Desktop\AmadeusGPT\data
-  result_folder: c:\Users\hugos\Desktop\AmadeusGPT\video_results
+  result_folder: c:\Users\hugos\Desktop\AmadeusGPT\results
   video_suffix: .avi
 keypoint_info:
   include_confidence: false
