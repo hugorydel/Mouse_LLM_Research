@@ -1,14 +1,15 @@
-    # Project definitions (do not edit)
+# Project definitions (do not edit)
 Task: Common_Network_cvBC
 scorer: 'David '
 date: Oct18
 multianimalproject: false
 identity:
 
-    # Project path (change when moving around)
-project_path: X:\project networks\Common_Network_cvBC-David -2023-10-18
+  # Project path (change when moving around)
+project_path:
+  X:\project networks\Common_Network_cvBC-David -2023-10-18
 
-    # Annotation data set configuration (and individual video cropping parameters)
+  # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
   ? \\b-u-mbsynnas1.it.manchester.ac.uk\Nas_3\project networks\Common_Network_cvBC-David
     -2023-10-18\videos\camera_1_trial_1_2023-06-16-130957-0000.avi
@@ -503,239 +504,78 @@ video_sets:
     -2023-10-18\videos for refinement\camera_4_trial_2_2023-10-16-152131-0000.avi
   : crop: 0, 1280, 0, 1024
 bodyparts:
-- Snout
-- Left ear
-- Right ear
-- Left implant back
-- Right implant back
-- White cable part
-- Neck base
-- Body midpoint
-- Tail base
-- Neck-body midpoint
-- Body-tail midpoint
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
-
-    # Fraction of video to start/stop when extracting frames for labeling/refinement
+  - Snout
+  - Left ear
+  - Right ear
+  - Left implant back
+  - Right implant back
+  - White cable part
+  - Neck base
+  - Body midpoint
+  - Tail base
+  - Neck-body midpoint
+  - Body-tail midpoint
 start: 0
 stop: 1
-numframes2pick: 10
+numframes2pick:
+  10
 
-    # Plotting configuration
+  # Plotting configuration
 skeleton:
-- - Snout
-  - Left ear
-- - Snout
-  - Right ear
-- - Left ear
-  - Left implant back
-- - Right ear
-  - Right implant back
-- - Left implant back
-  - White cable part
-- - Right implant back
-  - White cable part
-- - Left ear
-  - Neck base
-- - Right ear
-  - Neck base
-- - Neck base
-  - Neck-body midpoint
-- - Neck-body midpoint
-  - Body midpoint
-- - Body midpoint
-  - Body-tail midpoint
-- - Body-tail midpoint
-  - Tail base
+  - - Snout
+    - Left ear
+  - - Snout
+    - Right ear
+  - - Left ear
+    - Left implant back
+  - - Right ear
+    - Right implant back
+  - - Left implant back
+    - White cable part
+  - - Right implant back
+    - White cable part
+  - - Left ear
+    - Neck base
+  - - Right ear
+    - Neck base
+  - - Neck base
+    - Neck-body midpoint
+  - - Neck-body midpoint
+    - Body midpoint
+  - - Body midpoint
+    - Body-tail midpoint
+  - - Body-tail midpoint
+    - Tail base
 
 skeleton_color: black
 pcutoff: 0.6
 dotsize: 7
 alphavalue: 0.7
-colormap: rainbow
+colormap:
+  rainbow
 
-    # Training,Evaluation and Analysis configuration
+  # Training,Evaluation and Analysis configuration
 TrainingFraction:
-- 0.95
+  - 0.95
 iteration: 1
 default_net_type: resnet_50
 default_augmenter: default
 snapshotindex: -1
-batch_size: 8
+batch_size:
+  8
 
-    # Cropping Parameters (for analysis and outlier frame detection)
-cropping: false
-    #if cropping is true for analysis, then set the values here:
+  # Cropping Parameters (for analysis and outlier frame detection)
+cropping:
+  false
+  #if cropping is true for analysis, then set the values here:
 x1: 0
 x2: 640
 y1: 277
-y2: 624
+y2:
+  624
 
-    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+  # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
 corner2move2:
-- 50
-- 50
+  - 50
+  - 50
 move2corner: true
