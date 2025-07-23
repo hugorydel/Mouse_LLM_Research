@@ -3,7 +3,10 @@
 build
 dist
 __pycache__
-# For the data inside the data directory (all files begin with camera...)
-camera*
+extra_data
+data_configs/
 temp_answer.json
 *.egg-info/
+results/*
+!results/example_output/
+utils/
