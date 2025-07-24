@@ -10,3 +10,5 @@ temp_answer.json
 results/*
 !results/example_output/
 utils/
+*.avi
+*.h5*.h5
